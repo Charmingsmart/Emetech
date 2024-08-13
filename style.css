@@ -1,0 +1,165 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    background:black;
+    height:250vh;
+}
+.navbar{
+   background: black;
+   width:100%;
+   position: fixed;
+   border:3px solid green;
+   border-radius: 12px;
+}
+.navbar ul{
+    display:flex;
+    color:blue;
+}
+.navbar li{
+    list-style:none;
+    margin-left: 15%;
+    display:flex;
+    align-items:center;
+}
+.navbar a{
+    text-decoration:none;
+    color: #11ff00;
+}
+.navbar button{
+    width:10vw;
+    background: #11ff00;
+    border-radius: 12px;
+}
+#ham{
+    width:30px;
+}
+#icons{
+    width:100%;
+    height:5%;
+    position:fixed;
+    border-radius:12px;
+    border:green 3px solid;
+    top:94%;
+    display:flex;
+    background:black;
+    
+}
+#icons img{
+    width:40px;
+    padding-left:8%;
+    height: 35px;
+}
+#maincontent{
+    padding-top:10%;
+    text-align:center;
+    color: blue;
+    font-family:monospace;
+    line-height:27.5px;
+}
+#maincontent button{
+    height:40px;
+    width:30%;
+    background:green;
+    color:blue;
+    font-family:monospace;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px blue;
+    border:3px solid #144706 ;
+}
+#maincontent img{
+    width:100%;
+    margin-top:0%;
+    border-radius: 12px;
+}
+#contact{
+    background: blue;
+    display:flex;
+    gap:5%;
+    border-radius:12px;
+    color:#47ff40f0;
+    padding-left:4%;
+    line-height:20px;
+} 
+#contact img{
+    display:flex;
+    width:30px;
+}
+#Dob{
+    border-radius: 12px;
+    border:3px solid blue;
+    align-items:center;
+    width:50%;
+    margin-left:25%;
+}
+#Dob input{
+    height: 5vh;
+    width: 23%;
+    border-radius: 6px;
+    border:2px solid green;
+    background:black;
+    Font-size:12px;
+    color:blue;
+    margin-top:4px;
+    margin-bottom:4px;
+    margin-left:35%;
+}
+#Dob input::placeholder{
+    text-align:center;
+    color:blue;
+    padding-top:1vh;
+}
+form input{
+    display:block;
+    height: 25px;
+    margin-left:25%;
+    margin-bottom:2vh;
+    border-radius: 10px;
+    border:green 2px double;
+    font-size:15px;
+    color:green;
+    font-family:monospace;
+    margin-top:1vh;
+    background:black;
+}
+form input::placeholder{
+    color:blue;
+    height:12px;
+}
+form{
+    border-radius:20px;
+    border:4px double green;
+    display:none;
+}
+form select{
+    background: black ;
+    border-radius: 6px;
+    border:2px solid green;
+    color:blue;
+}
+#logbox{
+    background:blue;
+    border-radius: 12px;
+    border:4px double green;
+    color: black;
+    display:none;
+}
+#logbox input{
+    display:block;
+    height: 25px;
+    margin-left:25%;
+    margin-bottom:2vh;
+    border-radius: 10px;
+    border:green 2px double;
+    font-size:15px;
+    color:green;
+    font-family:monospace;
+    margin-top:1vh;
+    background:black;
+}
+ #logbox input::placeholder{
+    color:blue;
+    height:12px;
+}
+

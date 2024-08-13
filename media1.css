@@ -1,0 +1,40 @@
+@media (max-width:786px) and (min-width: 100px){
+    .navbar li{
+        display:none;
+    }
+    .navbar ul:first-child{
+       gap:67%;
+       margin-left:3%;
+    }
+    .navbar ul:last-child{
+       
+    }
+}
+@media (min-width:787px){
+    #ham {
+        display:none;
+    }
+    #icons{
+        display:none;
+    }
+    #maincontent{
+        padding-top:3.5%;
+    }
+    #first-img{
+        margin-left:20%;
+    }
+    #logbox input,
+    form input{
+        width:50%;
+        height:2vh;
+    }
+    #Dob input::placeholder{
+        font-size:25px;
+        padding:0%;
+    }
+    #Dob input{
+        font-size:25px;
+        height:2vh;
+    }
+    
+}
